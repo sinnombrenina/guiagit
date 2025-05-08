@@ -1,4 +1,5 @@
 # Guía básica del uso de git 
+---
 ### ¿Qué es git?
  *Git* es una herramienta de **control de versiones** que permite a los desarrolladores gestionar y coordinar cambios en el código fuente de proyectos de software.
 ### ¿Qué es github?
@@ -24,8 +25,7 @@ Seguiremos unos pasos en orden para escribir los comandos correctamente a la hor
 
 **5º.** Tras haberlo subido debemos añadirlo al repositorio con **git commit -m "Un pequeño comentario que describa el archivo"** pero esto no es el ultimo ya que aun no se habra añadido al repositorio.
 
-**6º.** Aunque pensemos que después de realizar los anteriores 5 pasos ya tendremos el archivo en el repositorio, no es así, aún nos queda un último comando ---> **git push** pero cuidado, 
-    la primera que utilices esto te dará un fallo el cual recibras un mensaje con una ampliación del mismo comando, este se coppa y se pega en el terminal, cuando hayas acbado y el terminal no t de ningún mensaje de fallo, por fin habrás conseguido crear un **repositorio**.
+**6º.** Aunque pensemos que después de realizar los anteriores 5 pasos ya tendremos el archivo en el repositorio, no es así, aún nos queda un último comando ---> **git push** pero cuidado, la primera que utilices esto te dará un fallo el cual recibras un mensaje con una ampliación del mismo comando, este se coppa y se pega en el terminal, cuando hayas acbado y el terminal no t de ningún mensaje de fallo, por fin habrás conseguido crear un **repositorio**.
 
  Lee y sigue atentamente los pasos, en caso de dar algún error, vuelva a repasar esta lista y comprobar haberla seguido corretamente.
 
@@ -34,8 +34,20 @@ Seguiremos unos pasos en orden para escribir los comandos correctamente a la hor
 Clonar un repositorio trata de duplicar un repositorio tuyo o de cualquier otro usuario de la página.
 Esto lo haremos de la siguiente forma:
 
-**1º-** Elegiremos el repositorio que deseemos clonar, ya bien se nuestro o no, en cuyo caso de que no sea propio tendremos que buscar el nombbre ed usuario de dicha persona.
+**1º-** Elegiremos el repositorio que deseemos clonar, ya bien se nuestro o no, en cuyo caso de que no sea propio tendremos que buscar el nombre de usuario de dicha persona.
 
+**2º-** Clicaremos en el repositorio que queramos, arriba a la derecha de este nos la saldrá la siguiente opción en verde ---> **Código**, desplegaremos esa opción y aparecerá un cuadro 
+     con información.
 
+**3º-** Veremos que pone "Clone y justamente debajo una pestaña, " HTTPS" con una direccion la cual hay que **copiar**.
+
+**4º-** Necesitamos abir el terminal y escribir el siguiente comando ---> **git clone "dirección copiada previamente"**.
+
+Y con estos pasos ya tendremos el archivo en la carpeta que hayamos creado.
 
 ### ¿Cómo hacer fork de un repositorio existente?
+Tras elegir el repositorio al que queramos hacer fork en la parte superior derecha de la pantalla visaualizamores una opción --> **"fork"** , clicamos ahí yya nos solicitará que pongamos un nombre, cual tú quieras y una descrición, después confirmamos los cambios en **"Crear fork"**.
+
+---
+
+## ESTAS SON LAS INSTRUCCIONES BÁSICAS PARA COMENZAR EN ESTA WEB
